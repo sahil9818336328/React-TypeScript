@@ -1,12 +1,9 @@
-import Component from './starter/02-props'
+import Component from './starter/04-events'
 
 function App() {
   return (
     <main>
-      <Component name='sahil' id={1}>
-        <h1>Children content</h1>
-      </Component>
-      <Component name='sahil' id={1} />
+      <Component />
     </main>
   )
 }
